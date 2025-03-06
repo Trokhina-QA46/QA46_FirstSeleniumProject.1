@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a4a0602-f2cd-47b9-92de-b4571d0821b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/telran/qa46/FirstSeleniumTest.java" afterDir="false" />
+    <list default="true" id="2a4a0602-f2cd-47b9-92de-b4571d0821b0" name="Changes" comment="add1">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/telran/qa46/FindElementTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +29,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2toYOD3pQicXi0ziofP9t5UUwkw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -54,16 +45,73 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.FindElementTests.findElementByCssSelectorTest.executor": "Run",
+    "TestNG.FindElementTests.findElementBySimpleLocators.executor": "Run",
+    "TestNG.FindElementTests.findElementByTagName.executor": "Run",
     "TestNG.FirstSeleniumTest.executor": "Run",
     "TestNG.FirstSeleniumTest.openGoogleTest.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/AutoProjects/QA46_FirstSeleniumProject.1/.gradle",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "last_opened_file_path": "C:/AutoProjects",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "settings.editor.splitter.proportion": "0.3003337"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.FirstSeleniumTest.openGoogleTest">
+  <component name="RunManager" selected="TestNG.FindElementTests.findElementByCssSelectorTest">
+    <configuration name="FindElementTests.findElementByCssSelectorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA46_FirstSeleniumProject.1.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.qa46.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.telran.qa46" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.qa46.FindElementTests" />
+      <option name="METHOD_NAME" value="findElementByCssSelectorTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindElementTests.findElementBySimpleLocators" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA46_FirstSeleniumProject.1.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.qa46.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.telran.qa46" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.qa46.FindElementTests" />
+      <option name="METHOD_NAME" value="findElementBySimpleLocators" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindElementTests.findElementByTagName" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA46_FirstSeleniumProject.1.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.qa46.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.telran.qa46" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.qa46.FindElementTests" />
+      <option name="METHOD_NAME" value="findElementByTagName" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FirstSeleniumTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QA46_FirstSeleniumProject.1.test" />
       <extension name="coverage">
@@ -101,6 +149,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.FindElementTests.findElementByCssSelectorTest" />
+        <item itemvalue="TestNG.FindElementTests.findElementBySimpleLocators" />
+        <item itemvalue="TestNG.FindElementTests.findElementByTagName" />
         <item itemvalue="TestNG.FirstSeleniumTest.openGoogleTest" />
         <item itemvalue="TestNG.FirstSeleniumTest" />
       </list>
@@ -115,6 +166,31 @@
       <option name="presentableId" value="Default" />
       <updated>1741019868407</updated>
     </task>
+    <task id="LOCAL-00001" summary="git commit -m 'Updated'">
+      <option name="closed" value="true" />
+      <created>1741028845118</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741028845118</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="git commit -m 'Updated'" />
+    <MESSAGE value="add1" />
+    <option name="LAST_COMMIT_MESSAGE" value="add1" />
   </component>
 </project>
