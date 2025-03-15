@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a4a0602-f2cd-47b9-92de-b4571d0821b0" name="Changes" comment="add1">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/telran/qa46/FindElementTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/telran/qa46/Homework1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/telran/qa46/Homework_2a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/telran/qa46/TableTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/qa46/FindElementTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/qa46/FindElementTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +31,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="TestNG" name="Homework_2a.findElementBySimpleLocator" />
+    </enabled-run-configurations>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -48,17 +55,28 @@
     "TestNG.FindElementTests.findElementByCssSelectorTest.executor": "Run",
     "TestNG.FindElementTests.findElementBySimpleLocators.executor": "Run",
     "TestNG.FindElementTests.findElementByTagName.executor": "Run",
+    "TestNG.FindElementTests.findElementByXpath.executor": "Run",
     "TestNG.FirstSeleniumTest.executor": "Run",
     "TestNG.FirstSeleniumTest.openGoogleTest.executor": "Run",
+    "TestNG.Homework_2.executor": "Run",
+    "TestNG.Homework_2.findElementByLocatorName.executor": "Run",
+    "TestNG.Homework_2.findElementBySimpleLocator.executor": "Run",
+    "TestNG.Homework_2a.executor": "Run",
+    "TestNG.Homework_2a.findElementByCssSelectorText.executor": "Run",
+    "TestNG.Homework_2a.findElementBySimpleLocator.executor": "Run",
+    "TestNG.TableTests.findElementTableWithCssTest.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/AutoProjects",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "settings.editor.splitter.proportion": "0.3003337"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.FindElementTests.findElementByCssSelectorTest">
-    <configuration name="FindElementTests.findElementByCssSelectorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Homework_2a">
+    <configuration name="FindElementTests.findElementByXpath" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QA46_FirstSeleniumProject.1.test" />
       <extension name="coverage">
         <pattern>
@@ -68,7 +86,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.telran.qa46" />
       <option name="MAIN_CLASS_NAME" value="com.telran.qa46.FindElementTests" />
-      <option name="METHOD_NAME" value="findElementByCssSelectorTest" />
+      <option name="METHOD_NAME" value="findElementByXpath" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -76,7 +94,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindElementTests.findElementBySimpleLocators" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Homework_2a" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QA46_FirstSeleniumProject.1.test" />
       <extension name="coverage">
         <pattern>
@@ -85,43 +103,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.telran.qa46" />
-      <option name="MAIN_CLASS_NAME" value="com.telran.qa46.FindElementTests" />
-      <option name="METHOD_NAME" value="findElementBySimpleLocators" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindElementTests.findElementByTagName" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="QA46_FirstSeleniumProject.1.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.telran.qa46.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.telran.qa46" />
-      <option name="MAIN_CLASS_NAME" value="com.telran.qa46.FindElementTests" />
-      <option name="METHOD_NAME" value="findElementByTagName" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstSeleniumTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="QA46_FirstSeleniumProject.1.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.telran.qa46.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.telran.qa46" />
-      <option name="MAIN_CLASS_NAME" value="com.telran.qa46.FirstSeleniumTest" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.qa46.Homework_2a" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -129,7 +111,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstSeleniumTest.openGoogleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Homework_2a.findElementByCssSelectorText" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QA46_FirstSeleniumProject.1.test" />
       <extension name="coverage">
         <pattern>
@@ -138,8 +120,44 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.telran.qa46" />
-      <option name="MAIN_CLASS_NAME" value="com.telran.qa46.FirstSeleniumTest" />
-      <option name="METHOD_NAME" value="openGoogleTest" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.qa46.Homework_2a" />
+      <option name="METHOD_NAME" value="findElementByCssSelectorText" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Homework_2a.findElementBySimpleLocator" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA46_FirstSeleniumProject.1.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.qa46.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.telran.qa46" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.qa46.Homework_2a" />
+      <option name="METHOD_NAME" value="findElementBySimpleLocator" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TableTests.findElementTableWithCssTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA46_FirstSeleniumProject.1.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.qa46.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.telran.qa46" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.qa46.TableTests" />
+      <option name="METHOD_NAME" value="findElementTableWithCssTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -149,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FindElementTests.findElementByCssSelectorTest" />
-        <item itemvalue="TestNG.FindElementTests.findElementBySimpleLocators" />
-        <item itemvalue="TestNG.FindElementTests.findElementByTagName" />
-        <item itemvalue="TestNG.FirstSeleniumTest.openGoogleTest" />
-        <item itemvalue="TestNG.FirstSeleniumTest" />
+        <item itemvalue="TestNG.Homework_2a" />
+        <item itemvalue="TestNG.Homework_2a.findElementByCssSelectorText" />
+        <item itemvalue="TestNG.Homework_2a.findElementBySimpleLocator" />
+        <item itemvalue="TestNG.TableTests.findElementTableWithCssTest" />
+        <item itemvalue="TestNG.FindElementTests.findElementByXpath" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741028845118</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add1">
+      <option name="closed" value="true" />
+      <created>1741287702874</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741287702874</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,5 +218,30 @@
     <MESSAGE value="git commit -m 'Updated'" />
     <MESSAGE value="add1" />
     <option name="LAST_COMMIT_MESSAGE" value="add1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/telran/qa46/Homework_2a.java</url>
+          <line>24</line>
+          <properties class="com.telran.qa46.Homework_2a" method="findElementBySimpleLocator">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/telran/qa46/Homework_2a.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/telran/qa46/Homework_2a.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
